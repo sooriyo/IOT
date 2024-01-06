@@ -14,7 +14,7 @@
 document.getElementById('controlButton').addEventListener('click', function() {
     // Make an HTTP request to your ESP32
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'http://esp32-ip-address/playSound', true);
+    xhr.open('GET', 'http://192.168.1.17/playSound', true);
     xhr.send();
 });
 </script>
